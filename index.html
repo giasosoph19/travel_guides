@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> MENU </title>
+
+<style>
+
+body {
+background-image: url(brow.png);
+background-size: cover;
+}
+
+h1 {
+font-family: Georgia, Serif;
+padding: 30px;
+background-color: #796951;
+color: black;
+border-style: solid;
+border-color: black;
+}
+
+
+.menu {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 15px;
+flex-wrap: wrap;
+background-color: #e0d19e;
+padding: 20px;
+border-radius: 20px;
+border-style: solid;
+border-color: white;
+}
+
+
+
+.menu a {
+background-color: #796951;
+color: rgb(225, 214, 192);
+padding: 20px 20px;
+border-radius:50px;
+transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+font-family: Lucida Console, Monospace;
+text-decoration-color: rgb(225, 214, 192);
+}
+
+.menu a:hover {
+background-color: white;
+color: rgb(117, 103, 77);
+transform: translateY(-5px); 
+            box-shadow: 0 0 10px #9b7140,
+                        0 0 25px #ff8f80;
+}
+
+
+.menu-item {
+    position: relative;
+}
+
+ .submenu { 
+            display: none; 
+            position: absolute; 
+            top: 150%; 
+            left: 0; 
+            min-width: 150px; 
+            background-color: rgb(225, 214, 192);
+            padding: 10px;
+            border-radius: 8px; 
+            z-index: 10;
+        }
+
+ .menu-item:hover .submenu { 
+            display: block;
+ }
+
+  .submenu a { 
+            background-color: #796951;
+            padding: 20px;
+            margin: 5px 0;
+            border-radius: 5px;
+            display: block;
+  }
+
+ .submenu a:hover { 
+            background-color: rgb(225, 214, 192);
+            transform: translateX(5px); 
+        } 
+
+ img { 
+        width: 500px; 
+        height: 300px; 
+        border: 5px solid white; 
+        border-radius: 15px; 
+ 
+        /* Smooth effect */ 
+        transition: 0.5s; 
+ 
+        /* Default filter */ 
+        filter: none; 
+    } 
+ 
+    /* Zoom when hovering */ 
+    img:hover { 
+        transform: scale(1.2); 
+    } 
+ 
+    button { 
+        padding: 15px 20px; 
+        margin: 3px; 
+        cursor: pointer; 
+        background-color: rgb(64, 128, 212); 
+        color: white; 
+        border: none; 
+        border-radius: 5px; 
+        font-family: Courier New, Monospace;
+        font-size: 20px
+    } 
+ 
+    .container {
+background-color: #e9d5b1;max-width: 600px;padding: 50px;border-radius: 20px;margin: auto;
+}
+
+ 
+
+h2 {
+display: inline-block;
+background-color: white;
+padding: 20px;
+border-radius: 20px;
+border-style: solid;
+border-color: rgb(3, 3, 151);
+}
+
+</style>
+
+</head>
+
+
+<body>
+<center>
+<h1> <i> Philippine Travel Guide </i></h1>
+
+
+<nav class="menu">
+
+    <div class="menu-item">
+    <a href="file:///C:/Users/admin/Desktop/hangeluvr/homep.html"> HOME </a>
+
+<div class="submenu">
+<a href="welcome.html">Welcome</a>
+<a href="updates.html">Featured Destinations</a>
+</div>
+</div>
+
+    <div class="menu-item">
+    <a href="aboutt.html"> ABOUT </a>
+
+<div class="submenu">
+<a href="aboutt.html">About the Philippines</a>
+<a href="updates.html">Our Culture</a>
+</div>
+</div>
+
+    <div class="menu-item">
+    <a href="tgallery.html"> GALLERY </a>
+
+<div class="submenu">
+<a href="t.gallery.html"> Tourist Destinations </a>
+<a href="t.gallery.html"> Photo Collection </a>
+</div>
+</div>
+
+    <div class="menu-item">
+    <a href="home.html"> CONTACT US </a>
+
+<div class="submenu">
+<a href="welcome.html"> Send a Message </a>
+<a href="updates.html"> Our Contact Information </a>
+</div>
+</div>
+
+</nav>
+
+<br><br> 
+
+<div class="container">
+<h1> Welcome to Philippine Travel Guide! We showcase and represent the beautiful culture of the Philippines; whether it be tourist destinations or culture! Feel free to explore our website and discover new things about the Philippines!</h1>
+</div>
+
+</center>
+</body>
+
+
+</html>
+
